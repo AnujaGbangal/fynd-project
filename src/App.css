@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+  color:"whitesmoke";
+  padding-right:60px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.field
+{
+  padding-top: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.btn-info{
+  
+  margin:10px;
+  padding: 20px;
+
+  color:"red";
+}
+.btn-danger
+{
+  margin:10px;
+  padding: 20px;
+  
+  
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  
+}
+
+#customers td, #customers th {
+  padding: 8px;
+  margin: 20px;
+  border:transparent;
+  text-align: center;
+  color:darkblue;
+  text-transform:uppercase;  
+}
+
+/* #customers tr:nth-child(even){background-color:crimson} */
+
+ /* #customers tr:hover {} */
+
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 30px;
+  text-align:center;
+  color:black;
+  /* background-color:skyblue; */
+  background: #8e9eab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+} 
+
+#butn{
+  margin-top: 20px;
+  
+}
+#bt{
+
+  margin-top:10px ;
+  margin-bottom: 10px;
+  color:darkblue;
+  
+ /* margin-left: 900px;
+ margin-bottom: 10px; */
+
+}
+b{
+  margin-top:10px ;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  font-size: 15px;
+  color: greenyellow;
+  
+}
+.detail{
+    margin:10px;
+    padding: 10px;
+    
+    
+}
+
+h7{color:black;
+font-size:20px;
+text-transform:uppercase;
+}
+#rbutton{
+  color: greenyellow;
+  
+}
+input{
+  color: black;
+  border: darkblue;
+ }
+#myForm
+{ 
+ 
+  border: 1px solid darkblue;
+  color:darkblue;
+}
+
+h2{font-size: medium;}
+
+#bt1{
+  text-align: end;
+  color:white;
+ 
+  margin-top:10px ;
+  margin-bottom: 10px;
+ }
+ table,Form
+ {background: #8e9eab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-left:30px;
+  padding-top: 2px;
+  padding-bottom:30px;
+  padding-right: 30px;
+  }
